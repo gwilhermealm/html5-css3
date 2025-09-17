@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+body{
+    margin: 0;
+    background-color:rgb(255, 255, 255); ;
+}
+header{
+    font-family: 'Fjalla One', Helvetica, sans-serif;
+    font-size: bold;
+   background-color: rgb(5, 5, 156);
+   color: #ffffff;
+   padding: 2px;
+   margin: 0%;
+   border-bottom-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+   box-shadow: 6px 4px 11px 1px rgba(0, 0, 0, 0.452);
+}
+header > h1 {
+    text-align: center;
+}
+
+main{
+    background-color: rgb(253, 253, 253);
+    
+}
+article > h2{
+    color:rgb(5, 5, 156) ;
+}
+
+article{
+    font-family: 'Fjalla One' , Helvetica, sans-serif;
+    
+   
+    margin: 2em;
+    padding: 1em;
+    box-shadow: 6px 4px 11px 1px rgba(0, 0, 0, 0.486);
+    background-color: rgba(233, 233, 255, 0.911);
+}
+div >p a{
+    text-decoration: none;
+    color: #ffffff;
+    
+}
+div > p {
+        display: none;
+        color: #ffffff;
+      }
+div:hover >p{
+        display: block;
+        background-color: rgb(5, 5, 156);
+        width:300px;
+        border-radius: 15px;
+        text-align: center;
+        box-shadow: 6px 4px 11px 1px rgba(0, 0, 0, 0.486);
+
+      }
+div:hover{
+        
+        color: rgb(187, 9, 9);
+      }
+
+
+

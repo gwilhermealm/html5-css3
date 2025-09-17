@@ -1,0 +1,111 @@
+@charset "UTF-8";
+@font-face {
+            font-family:'cordel';
+            src: url('font/CordelEncarnado-Bold.ttf')format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+@font-face{
+       font-family: 'demo';
+       src: url('font/cordelina.otf') format('truetype');
+       font-weight: normal;
+       font-style: normal;
+}
+        
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    min-height: 100vh;
+}
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+header > h1{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-variant: small-caps;
+    font-family: 'cordel', Helvetica, sans-serif;
+    font-size: 30pt;
+    
+}
+header > p{
+    padding-bottom: 25px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color:#8C503A ;
+}
+#img1{
+    background-image: url(imagens/backgrou1.jpg);
+    text-align: end;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+#img2{
+    background-image: url(imagens/backgroud2.jpg);
+    text-align: end;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+section{
+    padding-top: 10vh ;
+    padding-bottom: 10vh ;
+    padding-left: 30px;
+    line-height: 2em ;
+    background-size: cover;
+}
+section > p{
+    font-family: 'demo', Courier, monospace;
+    padding-bottom: 1em;
+    padding-right: 20px;
+}
+.normal{
+    background-color:#72412f;
+    color: white;
+
+}
+.imagen{
+    background-color: white;
+}
+
+
+footer{
+  background-color: black;
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+
+
+/* estilo para telas maiores */
+
+@media (min-width: 1200px) {
+    section{
+        height: 400px;
+        padding-bottom: 10vh;
+    }
+    #normal1{
+       text-align:  center;
+       font-size: 20pt;
+    }
+    #normal2,#normal3{
+        text-align: center;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+        height: 600px;
+        font-size: 15pt;
+    }
+    #img1,#img2{
+        text-align: center;
+        font-size: 20pt;
+    }
+}
